@@ -69,7 +69,7 @@ def generate_random_ontime_type():
 def generate_random_automation_status():
     return random.choice(automation_status_types) if random.random() < .93 else None
 
-# Number of rows in the CSV file
+# Number of rows in the CSV files
 num_rows_SupplyChain = random.randint(40000,60000)
 num_rows_Automation = num_rows_SupplyChain
 num_rows_Invoice = random.randint(40000,60000)
