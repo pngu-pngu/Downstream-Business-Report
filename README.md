@@ -79,13 +79,29 @@
     Last Refresh - The date and time the report was last refreshed. Note this is not when the data was last refreshed.
 
     Page Navigator - Click any page button on the left side of the report, and the user will be taken to that page.
+![HomePage](https://github.com/pngu-pngu/Order-To-Cash-Business-Report/assets/118928534/b1ee6411-858f-4d00-b18e-575b04e98b62)
+
+
   #### Executive Dashboard 
+![ExecutiveDashboard](https://github.com/pngu-pngu/Order-To-Cash-Business-Report/assets/118928534/e6387ed7-c997-46ba-9dc4-55816e9a55d5)
+
   #### Performance Summary 
+![PerformanceSummary](https://github.com/pngu-pngu/Order-To-Cash-Business-Report/assets/118928534/0eb7c138-76a4-4e65-8971-90965e26e0e5)
+
   #### Performance Summary Details 
+![PeformanceSummaryDetails](https://github.com/pngu-pngu/Order-To-Cash-Business-Report/assets/118928534/5f94785e-5383-4c35-9514-9689888846a3)
+
   #### Supply Chain Details 
+![SupplyChainDetails](https://github.com/pngu-pngu/Order-To-Cash-Business-Report/assets/118928534/61e8db1a-3475-48a5-87ff-bab34108245d)
+
   #### Order Management Details 
+![OrderManagementDetails](https://github.com/pngu-pngu/Order-To-Cash-Business-Report/assets/118928534/e22a7248-eb5a-4c1b-9962-8dc78a7f0fd1)
+
   #### Invoice Details 
+![InvoiceDetails](https://github.com/pngu-pngu/Order-To-Cash-Business-Report/assets/118928534/190eccd4-c5d0-4bf6-9292-600027822fc8)
+
   #### Automation Details 
+![image](https://github.com/pngu-pngu/Order-To-Cash-Business-Report/assets/118928534/f2216014-2771-404e-bc84-6473fb31e17f)
 
   # In Progress
 
