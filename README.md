@@ -13,7 +13,7 @@
 
     Data generated in python script GenerateData.py.  
     All data is fictional and does not represent any organization's real financial data. 
-    Real, raw financial data is hard to come by as no organization wants to reveal or generate that data for the public.
+    Real, raw financial, customer, and product data is hard to come by as no organization wants to reveal or generate that data for the public.
 
 ### Assumptions:
     All data comes from a data lake or other data repository.
