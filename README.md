@@ -1,5 +1,7 @@
 # Order To Cash Business Report
 
+
+
 ## Overview
 
     Report simulates real-world downstream order to cash business report.  
@@ -9,7 +11,7 @@
     All data is fictional and does not represent any organization's real financial data. 
     Real, raw financial data is hard to come by as no organization wants to reveal or generate that data for the public.
 
-#### Assumptions:
+### Assumptions:
     All data comes from a data lake or other data repository.
         
     Depending on business processes and architecture, data processing and cleaning could occur in a third-party analytics system or Power Query.
@@ -20,6 +22,10 @@
 
     Customer data (name and id), product data (name and id), and shipping locations (name and id) are all located in separate locations, whether it be SharePoint files, data lakes, or other table locations. 
     All can be joined with data on id. 
+
+    Order to Cash Cycle Time Metric:
+    Measures the days between the purchase to reporting after payment is collected. 
+    For the purpose of this dashboard, we are measuring the days between the ordered date and the invoice date.
 
 ### Power Query
 
@@ -33,8 +39,25 @@
 
         For each source table the following column is added
         = Table.AddColumn(#"Changed Type", "Month Order", each if (Date.Month([Ordered Date]) ) = Date.Month(DateTime.LocalNow()) then 12 else Number.Mod( (Date.Month([Ordered Date]) - Date.Month(DateTime.LocalNow())+12),12), type number)
-    
-        
+
+    Order to Cash Cycle Time
+        For the invoice table, a column is created for the order to cash cycle time calculation.
+        Invoice Date - Ordered Date
+
+### Data View
+
+    Date to be listed as Earliest Month (current month - 11) to Current Month
+        'Month' table - 'Date' field is sorted by 'Month Order'
+
+    Product to be listed in order 'Power, Chargers, Lighting, Other'
+        'Product' table - 'Product' field is sorted by 'Product Order'
+
+### Model
+
+    Invoice, Automation, Supply Chain, Order Management tables have a many to 1 relationship with the month, product, and shipping location tables.
+
+![image](https://github.com/pngu-pngu/Order-To-Cash-Business-Report/assets/118928534/fb744046-8ddf-4d77-a7a8-ea5e09b58f4b)
+
 
 ### Pages
     Home Page 
@@ -63,3 +86,8 @@
   #### Order Management Details 
   #### Invoice Details 
   #### Automation Details 
+
+  # In Progress
+
+      
+  
