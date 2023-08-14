@@ -7,6 +7,10 @@
     Report simulates real-world downstream order to cash business report.  
     Alkaline Battery Technologies and Buy n Large are fictitious companies, brands, and logos.
 
+    Report has two primary uses:
+        1. Provide visuals to inform business leaders' data-driven decisions
+        2. Provide drill-down reports for customer service, sales, and logistics groups to see individual line data from multiple sources in one location
+
     Data generated in python script GenerateData.py.  
     All data is fictional and does not represent any organization's real financial data. 
     Real, raw financial data is hard to come by as no organization wants to reveal or generate that data for the public.
@@ -26,6 +30,8 @@
     Order to Cash Cycle Time Metric:
     Measures the days between the purchase to reporting after payment is collected. 
     For the purpose of this dashboard, we are measuring the days between the ordered date and the invoice date.
+
+    Goals are kept in a separate SharePoint file. If the business wants to change its goals, it will not break the dashboard.
 
 ### Power Query
 
