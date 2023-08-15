@@ -128,4 +128,7 @@
     Clicking on the visual will reveal additional filters.
 ![image](https://github.com/pngu-pngu/Order-To-Cash-Business-Report/assets/118928534/c065d876-4c49-4a31-a642-f2d6a78f9051)
 
+## In Progress
+    Use Power Automate to send email to business leaders with a summary of KPI performance at the end of every month.
+    Create pipeline from a repository through a big data processing tool to perform predictive analytical functions that feed into the report.
 
