@@ -7,7 +7,7 @@
     Report simulates real-world downstream order to cash business report.  
     Alkaline Battery Technologies and Buy n Large are fictitious companies, brands, and logos.
 
-    Report has two primary uses:
+    Report has three primary uses:
         1. Provide visuals to inform business leaders' data-driven decisions
         2. Real-time data allows for the business to solve issues as they appear real-time
         3. Provide drill-down reports for customer service, sales, and logistics groups to see individual line data from multiple sources in one location
