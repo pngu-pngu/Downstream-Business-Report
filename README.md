@@ -11,7 +11,9 @@
         1. Provide visuals to inform business leaders' data-driven decisions
         2. Real-time data allows for the business to solve issues as they appear real-time
         3. Provide drill-down reports for customer service, sales, and logistics groups to see individual line data from multiple sources in one location
-            Without this visual, they could only see data from different source systems separately.  Joining the supply chain and order management data with                     product data, customer data allows efficient problem-solving and insights. 
+            Without this visual, they could only see data from different source systems separately.  Joining the supply chain and order management data with                     product data, customer data allows efficient problem-solving and insights.
+
+    Metrics chosen from https://www.datapine.com/blog/supply-chain-metrics-and-kpis/
 
     Data generated in python script GenerateData.py.  
     All data is fictional and does not represent any organization's real financial data. 
